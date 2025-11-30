@@ -1,0 +1,121 @@
+Employee Attendance System
+Tech Stack
+● Frontend: React + Redux Toolkit/Zustand
+● Backend: Node.js + Express
+● Database: MongoDB or PostgreSQL
+What to Build
+An attendance tracking system with 2 user roles:
+1. Employee - Mark daily attendance
+2. Manager - View and manage team attendance
+Features
+Employee Features
+1. Register/Login
+2. Mark attendance (Check In / Check Out)
+3. View my attendance history (calendar or table)
+4. View monthly summary (Present/Absent/Late days)
+5. Dashboard with stats
+Manager Features
+1. Login
+2. View all employees attendance
+3. Filter by employee, date, status
+4. View team attendance summary
+5. Export attendance reports (CSV)
+6. Dashboard with team stats
+Required Pages
+Employee:
+● Login/Register
+● Dashboard
+● Mark Attendance
+● My Attendance History
+● Profile
+Manager:
+● Login
+● Dashboard
+● All Employees Attendance
+● Team Calendar View
+● Reports
+Database Schema
+Users:
+- id
+- name
+- email
+- password (hashed)
+- role (employee/manager)
+- employeeId (unique, e.g., EMP001)
+- department
+- createdAt
+Attendance:
+- id
+- userId
+- date
+- checkInTime
+- checkOutTime
+- status (present/absent/late/half-day)
+- totalHours
+- createdAt
+API Endpoints
+Auth
+POST /api/auth/register
+POST /api/auth/login
+GET /api/auth/me
+Attendance (Employee)
+POST /api/attendance/checkin - Check in
+POST /api/attendance/checkout - Check out
+GET /api/attendance/my-history - My attendance
+GET /api/attendance/my-summary - Monthly summary
+GET /api/attendance/today - Today's status
+Attendance (Manager)
+GET /api/attendance/all - All employees
+GET /api/attendance/employee/:id - Specific employee
+GET /api/attendance/summary - Team summary
+GET /api/attendance/export - Export CSV
+GET /api/attendance/today-status - Who's present today
+Dashboard
+GET /api/dashboard/employee - Employee stats
+GET /api/dashboard/manager - Manager stats
+Dashboard Requirements
+Employee Dashboard:
+● Today's status (Checked In / Not Checked In)
+● This month: X present, Y absent, Z late
+● Total hours worked this month
+● Recent attendance (last 7 days)
+● Quick Check In/Out button
+Manager Dashboard:
+● Total employees
+● Today's attendance: X present, Y absent
+● Late arrivals today
+● Chart: Weekly attendance trend
+● Chart: Department-wise attendance
+● List of absent employees today
+Additional Features
+Attendance History Page:
+● Calendar view showing present/absent/late days
+● Color coding: Green (Present), Red (Absent), Yellow (Late), Orange (Half
+Day)
+● Click on date to see details
+● Filter by month
+Reports Page (Manager):
+● Select date range
+● Select employee or all
+● Show table with attendance data
+● Export to CSV button
+Deliverables
+1. GitHub Repository with clean code
+2. README.md with:
+○ Setup instructions
+○ How to run
+○ Environment variables
+○ Screenshots
+3. .env.example file
+4. Working application
+5. Seed data (sample users and attendance)
+Evaluation (100 Points)
+● Functionality: 40 points
+● Code Quality: 25 points
+● UI/UX: 15 points
+● API Design: 10 points
+● Database: 5 points
+● Documentation: 5 points
+Submission
+● Submit: GitHub repository link & preview url
+Good luck!
