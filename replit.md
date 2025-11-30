@@ -1,0 +1,90 @@
+# Employee Attendance System (AttendEase)
+
+## Overview
+AttendEase is a full-featured employee attendance tracking system with role-based access for employees and managers. It provides check-in/out functionality, attendance history, reports, and comprehensive dashboards.
+
+## Tech Stack
+- **Frontend**: React + TypeScript + Vite + TailwindCSS + Shadcn UI
+- **Backend**: Node.js + Express + TypeScript
+- **State Management**: TanStack Query (React Query)
+- **Routing**: Wouter
+- **Styling**: TailwindCSS with dark/light mode support
+- **Authentication**: Express Sessions
+
+## Running the Project
+```bash
+npm run dev
+```
+This starts both the Express backend and Vite frontend on port 5000.
+
+## Test Credentials
+### Employee Account
+- Email: john@company.com
+- Password: password123
+
+### Manager Account
+- Email: manager@company.com
+- Password: password123
+
+## Features
+
+### Employee Features
+- Mark daily attendance (Check In / Check Out)
+- View attendance history with calendar view
+- View monthly summary statistics
+- Dashboard with quick stats and recent attendance
+
+### Manager Features
+- View all employees' attendance
+- Filter by employee, date, status
+- Team calendar view
+- Export attendance reports to CSV
+- Dashboard with team statistics and charts
+
+## Project Structure
+```
+├── client/                 # Frontend React application
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Page components
+│   │   ├── lib/            # Utilities, auth, theme
+│   │   └── hooks/          # Custom hooks
+├── server/                 # Backend Express application
+│   ├── routes.ts           # API routes
+│   ├── storage.ts          # In-memory storage
+│   └── index.ts            # Server entry
+├── shared/                 # Shared types and schemas
+│   └── schema.ts           # Database schema and types
+└── design_guidelines.md    # UI/UX design guidelines
+```
+
+## API Endpoints
+
+### Authentication
+- `POST /api/auth/register` - Register new user
+- `POST /api/auth/login` - Login user
+- `GET /api/auth/me` - Get current user
+- `POST /api/auth/logout` - Logout user
+
+### Attendance (Employee)
+- `POST /api/attendance/checkin` - Check in
+- `POST /api/attendance/checkout` - Check out
+- `GET /api/attendance/today` - Today's status
+- `GET /api/attendance/my-history` - Attendance history
+
+### Attendance (Manager)
+- `GET /api/attendance/all` - All employees' attendance
+- `GET /api/attendance/report` - Generate report
+- `GET /api/attendance/calendar` - Calendar data
+- `GET /api/attendance/export` - Export to CSV
+- `GET /api/attendance/export-report` - Export report to CSV
+
+### Dashboard
+- `GET /api/dashboard/employee` - Employee dashboard stats
+- `GET /api/dashboard/manager` - Manager dashboard stats
+
+## Attendance Status Types
+- **Present**: Check-in before 9:30 AM
+- **Late**: Check-in between 9:30 AM and 12:00 PM
+- **Half-Day**: Working less than 4 hours
+- **Absent**: No check-in recorded
