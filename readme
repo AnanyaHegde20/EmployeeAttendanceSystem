@@ -1,128 +1,95 @@
-# 🎓 Student Details
+🎯 AttendEase – Employee Attendance System
+📌 A modern full-stack attendance tracking platform with role-based access.
+👤 Student Details
+Name: Ananya Hegde
+College: Shree Devi Institute of Technology, Mangalore
+Contact: 8792637313
+Project: Employee Attendance System
 
-* **Name**: Ananya Hegde
-* **College**: Shree Devi Institute of Technology, Mangalore
-* **📞 Contact**: 8792637313
-* **💼 Project**: Employee Attendance System – AttendEase
+🚀 Overview
+AttendEase is a complete employee attendance management system that helps organizations track daily attendance, working hours, late entries, and team performance.
 
----
+It includes separate dashboards and features for Employees and Managers, delivering analytics, reports, calendar views, and CSV exports.
 
-# 🕒 Employee Attendance System (AttendEase)
+🛠️   Tech Stack
 
-## 🔍 Overview
+Layer            :       Technologies
 
-AttendEase is a full-featured employee attendance tracking system with **role-based access** for employees and managers. It provides check-in/out functionality, attendance history, reports, and comprehensive dashboards.
+Frontend         :      React, TypeScript, Vite, TailwindCSS, Shadcn UI
 
----
+Backend          :      Node.js, Express, TypeScript
 
-## 🛠 Tech Stack
+State Management :      TanStack Query (React Query)
 
-* **Frontend**: React + TypeScript + Vite + TailwindCSS + Shadcn UI
-* **Backend**: Node.js + Express + TypeScript
-* **State Management**: TanStack Query (React Query)
-* **Routing**: Wouter
-* **Styling**: TailwindCSS with dark/light mode support
-* **Authentication**: Express Sessions
+Routing          :      Wouter
 
----
+Styling          :      TailwindCSS + Dark/Light Mode
 
-## 🚀 Running the Project
+Prajju Anna, [11/30/2025 5:19 PM]
+▶️ How to Run the Project
 
-```bash
+
 npm run dev
-```
 
-This starts both the **Express backend** and **Vite frontend** on port 5000.
+This starts both:
+Express Backend
+Vite Frontend
+Project runs at: http://localhost:5000
 
----
+🔐 Test Credentials
+👨‍💻 Employee Login
+Email: john@company.com
+Password: password123
+👩‍💼 Manager Login
+Email: manager@company.com
+Password: password123
 
-## 🔑 Test Credentials
 
-### 👩‍💼 Employee Account
+🌟 Features
 
-* ✉️ Email: [john@company.com](mailto:john@company.com)
-* 🔑 Password: password123
+👨‍💻 Employee Features
+Check In / Check Out
+View attendance history
+Calendar view
+Monthly summary statistics
+Dashboard with quick insights
 
-### 👨‍💼 Manager Account
+👩‍💼 Manager Features
+View all employees’ attendance
+Filter by employee, date, and status
+Team calendar view
+Export reports to CSV
+Dashboard with analytics & charts 
 
-* ✉️ Email: [manager@company.com](mailto:manager@company.com)
-* 🔑 Password: password123
+📂 Project Structure
 
----
-
-## ✨ Features
-
-### 🧑 Employee Features
-
-* ✅ Mark daily attendance (Check In / Check Out)
-* 📅 View attendance history with calendar view
-* 📊 View monthly summary statistics
-* 📈 Dashboard with quick stats and recent attendance
-
-### 👔 Manager Features
-
-* 👀 View all employees' attendance
-* 🔍 Filter by employee, date, status
-* 🗓 Team calendar view
-* 📄 Export attendance reports to CSV
-* 📊 Dashboard with team statistics and charts
-
----
-
-## 🗂 Project Structure
-
-```
 ├── client/                 # Frontend React application
 │   ├── src/
 │   │   ├── components/     # Reusable UI components
 │   │   ├── pages/          # Page components
 │   │   ├── lib/            # Utilities, auth, theme
 │   │   └── hooks/          # Custom hooks
+│
 ├── server/                 # Backend Express application
 │   ├── routes.ts           # API routes
 │   ├── storage.ts          # In-memory storage
-│   └── index.ts            # Server entry
+│   └── index.ts            # Server entry point
+│
 ├── shared/                 # Shared types and schemas
 │   └── schema.ts           # Database schema and types
-└── design_guidelines.md    # UI/UX design guidelines
-```
+│
+└── design_guidelines.md    # UI/UX guidelines
 
----
+⏱️ Attendance Status Rules
+Status
+Condition
+Present
+Check-in before 9:30 AM
+Late
+Check-in between 9:30 AM – 12:00 PM
+Half-Day
+Working hours less than 4 hours
+Absent
+No check-in recorded
 
-## 🌐 API Endpoints
-
-### 🔐 Authentication
-
-* `POST /api/auth/register` – Register new user
-* `POST /api/auth/login` – Login user
-* `GET /api/auth/me` – Get current user
-* `POST /api/auth/logout` – Logout user
-
-### 🧑 Attendance (Employee)
-
-* `POST /api/attendance/checkin` – Check in
-* `POST /api/attendance/checkout` – Check out
-* `GET /api/attendance/today` – Today's status
-* `GET /api/attendance/my-history` – Attendance history
-
-### 👔 Attendance (Manager)
-
-* `GET /api/attendance/all` – All employees' attendance
-* `GET /api/attendance/report` – Generate report
-* `GET /api/attendance/calendar` – Calendar data
-* `GET /api/attendance/export` – Export to CSV
-* `GET /api/attendance/export-report` – Export report to CSV
-
-### 📊 Dashboard
-
-* `GET /api/dashboard/employee` – Employee dashboard stats
-* `GET /api/dashboard/manager` – Manager dashboard stats
-
----
-
-## 📌 Attendance Status Types
-
-* ✅ **Present**: Check-in before 9:30 AM
-* ⏰ **Late**: Check-in between 9:30 AM and 12:00 PM
-* 🕑 **Half-Day**: Working less than 4 hours
-* ❌ **Absent**: No check-in recorded
+Authentication        Express Sessions
