@@ -1,40 +1,30 @@
-<p align="center">
-  
-# 🕒✨ **Employee Attendance System – AttendEase**
 
-A modern, stylish, full-stack attendance management system  
-built with **Employee + Manager roles**, clean UI, API integration,  
-and PostgreSQL support.
+<div align="center">
+
+# ⏰✨ **Employee Attendance System – AttendEase**
+
+A modern, stylish, full‑stack attendance management system with  
+**Employee + Manager roles**, clean UI, API integration, and PostgreSQL support.
 
 ---
 
-</p>
+</div>
 
 ## 🚀 **Features Overview**
 
-### 👨‍💼 Employee Features  
+### 👨‍💼 Employee Features
 - ✔ Login / Register  
 - ✔ Dashboard  
-- ✔ Check-In / Check-Out  
+- ✔ Check‑In / Check‑Out  
 - ✔ Attendance History (Calendar + Table)  
 - ✔ Monthly Summary  
 - ✔ Profile Page  
 
-### 🧑‍💼 Manager Features  
+### 👩‍💻 Manager Features
 - ✔ Manager Login  
-- ✔ Dashboard  
-- ✔ View All Employees  
-- ✔ Attendance Reports  
-- ✔ Monthly / Daily Summary  
-- ✔ Add / Edit / Delete Employee Records  
-
-## 🛠️ **Tech Stack**
-- **Frontend:** React + TailwindCSS  
-- **Backend:** Node.js + Express  
-- **Database:** PostgreSQL  
-- **Tools:** Vite, JWT Auth, Prisma ORM  
-
- 
+- ✔ Dashboard Overview  
+- ✔ Employee Attendance Overview  
+- ✔ Reports + CSV Export  
 
 ### 🗄 Backend (Node.js + Express + PostgreSQL)
 - 🔐 JWT Authentication  
@@ -48,8 +38,8 @@ and PostgreSQL support.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/AnanyaHegde20/EmployeeAttendanceSystem.git
-cd AttendanceTracker
+git clone https://github.com/your-username/attendance_system_fullstack.git
+cd attendance_system_fullstack
 ```
 
 ### 2️⃣ Install Backend Dependencies
