@@ -38,7 +38,7 @@ A modern, stylish, full‑stack attendance management system with
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/AnanyaHegde20.git
+git clone https://github.com/AnanyaHegde20/EmployeeAttendanceSystem.git
 cd AttendanceTracker
 ```
 
