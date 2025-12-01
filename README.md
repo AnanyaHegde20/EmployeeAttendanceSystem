@@ -94,15 +94,14 @@ npm start
 ```
 
 ### 🔐 Login Page
-![Login Page](https://raw.githubusercontent.com/AnanyaHegde20/EmployeeAttendanceSystem/main/image/Login%20page.png)
-
-
+<img width="1919" height="904" alt="Login page" src="https://github.com/user-attachments/assets/f7d7f8aa-9f31-4248-9032-c5fe97f5508b" />
 
 ### 🧑‍💼 Manager Dashboard
-![Manager Dashboard](images/ManagerDashboard.png)
+<img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/5ef98c58-c985-43b2-ac23-f9a8001ced99" />
 
 ### 👨‍💻 Employee Dashboard
-![Employee Dashboard](images/EmployeeDashboard.png)
+<img width="1913" height="911" alt="Employee Dashboard" src="https://github.com/user-attachments/assets/571e9afe-73f0-4e73-90ac-00fc3b761099" />
+
 
 
 ```
