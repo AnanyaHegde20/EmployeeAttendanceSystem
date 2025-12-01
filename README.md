@@ -93,15 +93,13 @@ npm start
 
 
 ### 🔐 Login Page
-![Login Page](https://github.com/AnanyaHegde20/EmployeeAttendanceSystem/blob/5039bcf584d60b9174e392a0751ba3f6c1bfacac/Login%20page.png)
-
+<img width="1919" height="904" alt="Login page" src="https://github.com/user-attachments/assets/f5469a45-9ef8-4feb-9330-4285da1ffc0d" />
 
 ### 🧑‍💼 Manager Dashboard
-<img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/5ef98c58-c985-43b2-ac23-f9a8001ced99" />
+<img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/5d059139-7339-4377-a214-4ee27dcef6c6" />
 
 ### 👨‍💻 Employee Dashboard
-![Screenshot](https://github.com/AnanyaHegde20/EmployeeAttendanceSystem/blob/a42d5725b0967e234addcb4a5c8347c7251338e8/Employee%20Dashboard.png)
-
+<img width="1913" height="911" alt="Employee Dashboard" src="https://github.com/user-attachments/assets/1bf57fd1-9364-46ac-ac76-123845ddd9ab" />
 
 
 ```
