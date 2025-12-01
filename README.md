@@ -91,11 +91,10 @@ npm start
 
 ## 🖼 **Screenshots**
 
-```
 
 ### 🔐 Login Page
-<img width="800" height="800" alt="Login page" src="https://github.com/user-attachments/assets/f7d7f8aa-9f31-4248-9032-c5fe97f5508b" />
-<img width="1919" height="904" alt="Login page" src="https://github.com/user-attachments/assets/f0252769-44cc-4207-a08e-7dc0defac246" />
+![Login Page](https://github.com/AnanyaHegde20/EmployeeAttendanceSystem/blob/5039bcf584d60b9174e392a0751ba3f6c1bfacac/Login%20page.png)
+
 
 ### 🧑‍💼 Manager Dashboard
 <img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/5ef98c58-c985-43b2-ac23-f9a8001ced99" />
