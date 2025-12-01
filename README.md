@@ -93,7 +93,15 @@ npm start
 
 ```
 
-https://github.com/AnanyaHegde20/EmployeeAttendanceSystem/blob/6abd005c6445d99c11ad8462965541a326f873f5/Employee%20Dashboard.png
+### 🔐 Login Page
+![Login Page](images/Login.png)
+
+### 🧑‍💼 Manager Dashboard
+![Manager Dashboard](images/ManagerDashboard.png)
+
+### 👨‍💻 Employee Dashboard
+![Employee Dashboard](images/EmployeeDashboard.png)
+
 
 ```
 
