@@ -94,7 +94,8 @@ npm start
 ```
 
 ### 🔐 Login Page
-![Login Page](images/Login.png)
+![Login](images/Login%20page.png)
+
 
 ### 🧑‍💼 Manager Dashboard
 ![Manager Dashboard](images/ManagerDashboard.png)
