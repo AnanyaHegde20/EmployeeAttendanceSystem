@@ -90,12 +90,11 @@ npm start
 ---
 
 ## 🖼 **Screenshots**
-Place all screenshots inside:
 
 ```
-<img src="C:\Users\HP\Pictures\Screenshots\Login page.png" width="500"/>
-<img src="C:\Users\HP\Pictures\Screenshots\Employee Dashboard.png" width="500"/>
-<img src="C:\Users\HP\Pictures\Screenshots\Manager Dashboard.png" width="500"/>
+![Screenshot](C:\Users\HP\Pictures\Screenshots\Login page.png)
+![Screenshot](C:\Users\HP\Pictures\Screenshots\Employee Dashboard.png)
+![Screenshot](C:\Users\HP\Pictures\Screenshots\Manager Dashboard.png)
 
 ```
 
