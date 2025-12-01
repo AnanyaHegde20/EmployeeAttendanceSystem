@@ -38,8 +38,8 @@ A modern, stylish, full‑stack attendance management system with
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/attendance_system_fullstack.git
-cd attendance_system_fullstack
+git clone https://github.com/AnanyaHegde20.git
+cd AttendanceTracker
 ```
 
 ### 2️⃣ Install Backend Dependencies
