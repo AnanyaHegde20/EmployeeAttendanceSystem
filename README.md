@@ -101,6 +101,7 @@ npm start
 
 ### 👨‍💻 Employee Dashboard
 <img width="1913" height="911" alt="Employee Dashboard" src="https://github.com/user-attachments/assets/571e9afe-73f0-4e73-90ac-00fc3b761099" />
+<img width="1919" height="904" alt="Login page" src="https://github.com/user-attachments/assets/912f8e99-2b95-4763-9005-477e9ecba989" />
 
 
 
