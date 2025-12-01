@@ -93,11 +93,7 @@ npm start
 
 ```
 
-<img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/8701f212-bd02-452c-b0d7-aac6a72a8e47" />
-
-![Screenshot](C:\Users\HP\Pictures\Screenshots\Login page.png)
-![Screenshot](C:\Users\HP\Pictures\Screenshots\Employee Dashboard.png)
-![Screenshot](C:\Users\HP\Pictures\Screenshots\Manager Dashboard.png)
+https://github.com/AnanyaHegde20/EmployeeAttendanceSystem/blob/6abd005c6445d99c11ad8462965541a326f873f5/Employee%20Dashboard.png
 
 ```
 
