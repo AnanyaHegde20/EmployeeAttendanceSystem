@@ -1,95 +1,113 @@
-🎯 AttendEase – Employee Attendance System
-📌 A modern full-stack attendance tracking platform with role-based access.
-👤 Student Details
-Name: Ananya Hegde
-College: Shree Devi Institute of Technology, Mangalore
-Contact: 8792637313
-Project: Employee Attendance System
+# 🌟 Employee Attendance System — AttendEase
 
-🚀 Overview
-AttendEase is a complete employee attendance management system that helps organizations track daily attendance, working hours, late entries, and team performance.
+A modern and stylish full‑stack web application for managing daily attendance with Employee and Manager roles.
 
-It includes separate dashboards and features for Employees and Managers, delivering analytics, reports, calendar views, and CSV exports.
+---
 
-🛠️   Tech Stack
+## 🛠️ Setup Instructions
 
-Layer            :       Technologies
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/AnanyaHegde20/EmployeeAttendanceSystem.git
 
-Frontend         :      React, TypeScript, Vite, TailwindCSS, Shadcn UI
+```
 
-Backend          :      Node.js, Express, TypeScript
+### **2. Install Backend Dependencies**
+```bash
+cd backend
+npm install
+```
 
-State Management :      TanStack Query (React Query)
+### **3. Install Frontend Dependencies**
+```bash
+cd frontend
+npm install
+```
 
-Routing          :      Wouter
+### **4. Configure Environment Variables**
+Create a `.env` file inside the **backend** folder:
 
-Styling          :      TailwindCSS + Dark/Light Mode
+```
+PORT=5000
+NODE_ENV=development
 
+# PostgreSQL Database
+POSTGRES_URI=postgres://username:password@localhost:5432/attendance_db
 
-▶️ How to Run the Project
+# JWT Secret
+JWT_SECRET=your_secret_key
 
+# Frontend URL
+CLIENT_URL=http://localhost:3000
+```
 
+---
+
+## ▶️ How to Run
+
+### **Start Backend**
+```bash
+cd backend
 npm run dev
+```
+Runs at: **http://localhost:5000**
 
-This starts both:
-Express Backend
-Vite Frontend
-Project runs at: http://localhost:5000
+### **Start Frontend**
+```bash
+cd frontend
+npm start
+```
+Runs at: **http://localhost:3000**
 
-🔐 Test Credentials
-👨‍💻 Employee Login
-Email: john@company.com
-Password: password123
-👩‍💼 Manager Login
-Email: manager@company.com
-Password: password123
+---
 
+## 📸 Screenshots  
+Place all screenshots inside a `/screenshots` folder.
 
-🌟 Features
+---
 
-👨‍💻 Employee Features
-Check In / Check Out
-View attendance history
-Calendar view
-Monthly summary statistics
-Dashboard with quick insights
+## ✅ Features (Working Project)
 
-👩‍💼 Manager Features
-View all employees’ attendance
-Filter by employee, date, and status
-Team calendar view
-Export reports to CSV
-Dashboard with analytics & charts 
+### **Frontend (React + Redux Toolkit/Zustand)**
+- Employee Login / Register  
+- Employee Dashboard  
+- Check‑In / Check‑Out  
+- Attendance History (Calendar + Table)  
+- Monthly Summary  
+- Profile Page  
+- Manager Login  
+- Manager Dashboard  
+- Attendance Overview  
+- Reports & CSV Export  
 
-📂 Project Structure
+### **Backend (Node.js + Express + PostgreSQL)**
+- Fully working REST API  
+- JWT Authentication  
+- Attendance Management  
+- Manager Endpoints  
+- Dashboard Analytics  
+- Pagination & Filtering  
+- CSV Export  
 
-├── client/                 # Frontend React application
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Page components
-│   │   ├── lib/            # Utilities, auth, theme
-│   │   └── hooks/          # Custom hooks
-│
-├── server/                 # Backend Express application
-│   ├── routes.ts           # API routes
-│   ├── storage.ts          # In-memory storage
-│   └── index.ts            # Server entry point
-│
-├── shared/                 # Shared types and schemas
-│   └── schema.ts           # Database schema and types
-│
-└── design_guidelines.md    # UI/UX guidelines
+### **PostgreSQL Database**
+- Users table  
+- Attendance table  
+- Relations using `userId`  
+- Seed Data Included  
 
-⏱️ Attendance Status Rules
-Status
-Condition
-Present
-Check-in before 9:30 AM
-Late
-Check-in between 9:30 AM – 12:00 PM
-Half-Day
-Working hours less than 4 hours
-Absent
-No check-in recorded
+---
 
-Authentication        Express Sessions
+## 🌱 Seed Data
+Path:
+```
+/backend/src/seed/seed.js
+```
+
+Run:
+```bash
+node src/seed/seed.js
+```
+
+---
+
+✨ **Developed with care for easy deployment and professional documentation.**
