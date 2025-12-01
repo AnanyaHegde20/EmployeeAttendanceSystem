@@ -93,13 +93,13 @@ npm start
 
 
 ### 🔐 Login Page
-<img width="1919" height="904" alt="Login page" src="https://github.com/user-attachments/assets/f5469a45-9ef8-4feb-9330-4285da1ffc0d" />
+<img width="800" height="700" alt="Login page" src="https://github.com/user-attachments/assets/f5469a45-9ef8-4feb-9330-4285da1ffc0d" />
 
 ### 🧑‍💼 Manager Dashboard
-<img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/5d059139-7339-4377-a214-4ee27dcef6c6" />
+<img width="800" height="700" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/5d059139-7339-4377-a214-4ee27dcef6c6" />
 
 ### 👨‍💻 Employee Dashboard
-<img width="1913" height="911" alt="Employee Dashboard" src="https://github.com/user-attachments/assets/1bf57fd1-9364-46ac-ac76-123845ddd9ab" />
+<img width="800" height="700" alt="Employee Dashboard" src="https://github.com/user-attachments/assets/1bf57fd1-9364-46ac-ac76-123845ddd9ab" />
 
 
 ```
