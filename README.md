@@ -93,7 +93,10 @@ npm start
 Place all screenshots inside:
 
 ```
-/screenshots/
+<img src="C:\Users\HP\Pictures\Screenshots\Login page.png" width="500"/>
+<img src="C:\Users\HP\Pictures\Screenshots\Employee Dashboard.png" width="500"/>
+<img src="C:\Users\HP\Pictures\Screenshots\Manager Dashboard.png" width="500"/>
+
 ```
 
 Suggested screenshots:
