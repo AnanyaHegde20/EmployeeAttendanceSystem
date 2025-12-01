@@ -123,9 +123,7 @@ Suggested screenshots:
 ▶️ Run seed script:
 ```
 node src/seed/seed.js
-```
 
----
 
 <div align="center">
 
