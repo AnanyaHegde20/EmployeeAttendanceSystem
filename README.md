@@ -100,8 +100,7 @@ npm start
 <img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/5ef98c58-c985-43b2-ac23-f9a8001ced99" />
 
 ### 👨‍💻 Employee Dashboard
-<img width="1913" height="911" alt="Employee Dashboard" src="https://github.com/user-attachments/assets/571e9afe-73f0-4e73-90ac-00fc3b761099" />
-<img width="1919" height="904" alt="Login page" src="https://github.com/user-attachments/assets/912f8e99-2b95-4763-9005-477e9ecba989" />
+![Screenshot](https://github.com/AnanyaHegde20/EmployeeAttendanceSystem/blob/a42d5725b0967e234addcb4a5c8347c7251338e8/Employee%20Dashboard.png)
 
 
 
