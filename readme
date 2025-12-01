@@ -1,116 +1,112 @@
-
-# 🕒 Employee Attendance System
-
-A full-stack web application for managing daily attendance with Employee and Manager roles.
+# 🚀 Employee Attendance System (Full-Stack)  
+A complete full-stack web application to manage daily employee attendance with Employee and Manager roles.
 
 ---
 
 ## 📦 Setup Instructions
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/AnanyaHegde20/EmployeeAttendanceSystem.git
+### 1️⃣ Clone the Repository
+git clone https://github.com/your-username/attendance_system_fullstack.git
+cd attendance_system_fullstack
+---
 
-```
-
-### 2. Install Backend Dependencies
-```bash
+### 2️⃣ Install Backend Dependencies
 cd backend
 npm install
-```
+---
 
-### 3. Install Frontend Dependencies
-```bash
+### 3️⃣ Install Frontend Dependencies
 cd frontend
 npm install
-```
+---
 
-### 4. Configure Environment Variables
-Create a `.env` file inside the backend folder using the format below.
+### 4️⃣ Configure Environment Variables
+Create a .env file inside the backend folder and use this format:
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run the Project
 
 ### Start Backend
-```bash
 cd backend
 npm run dev
-```
-Runs at: **http://localhost:5000**
+📌 Backend runs at: http://localhost:5000
+
+---
 
 ### Start Frontend
-```bash
 cd frontend
 npm start
-```
-Runs at: **http://localhost:3000**
+📌 Frontend runs at: http://localhost:3000
 
 ---
 
 ## 🔑 Environment Variables (PostgreSQL)
 
-```
 PORT=5000
 NODE_ENV=development
 
+# PostgreSQL Database
 POSTGRES_URI=postgres://username:password@localhost:5432/attendance_db
 
+# JWT Secret
 JWT_SECRET=your_secret_key
 
+# Frontend URL
 CLIENT_URL=http://localhost:3000
-```
-
 ---
 
 ## 🖼️ Screenshots
-Place all screenshots in the `/screenshots` folder.
+Place all screenshots inside a /screenshots folder.
 
 ---
 
-## ✅ Working Application Includes
-
-### ✔ Frontend (React + Redux Toolkit/Zustand)
-1. Employee Login / Register  
-2. Employee Dashboard  
-3. Mark Attendance (Check-In / Check-Out)  
-4. Attendance History (Calendar & Table)  
-5. Monthly Summary  
-6. Profile Page  
-7. Manager Login  
-8. Manager Dashboard  
-9. Attendance Overview  
-10. Reports & CSV Export  
+# ✅ Working Application Overview
 
 ---
 
-### ✔ Backend (Node.js + Express + PostgreSQL)
-1. Fully functional REST API  
-2. JWT Authentication  
-3. Attendance management  
-4. Manager-specific endpoints  
-5. Dashboard analytics  
-6. Pagination & Filtering  
-7. CSV Export  
+## 🖥️ Frontend (React + Redux Toolkit / Zustand)  
+✔ Employee Login / Register  
+✔ Employee Dashboard  
+✔ Mark Attendance (Check-In / Check-Out)  
+✔ Attendance History (Calendar + Table)  
+✔ Monthly Attendance Summary  
+✔ Profile Page  
+✔ Manager Login  
+✔ Manager Dashboard  
+✔ Attendance Overview  
+✔ Reports & CSV Export  
 
 ---
 
-### ✔ PostgreSQL Database
-- Users table  
-- Attendance table  
-- Relations based on userId  
-- Includes sample seed data  
+## 🛠️ Backend (Node.js + Express + PostgreSQL)  
+✔ Fully functional REST API  
+✔ JWT Authentication  
+✔ Attendance Management APIs  
+✔ Manager-specific Endpoints  
+✔ Dashboard Analytics  
+✔ Pagination & Filtering  
+✔ CSV Export Support  
 
 ---
 
-## 🌱 Seed Data
+## 🗄️ PostgreSQL Database Structure
 
-Seed file path:
-```
+✔ users table  
+✔ attendance table  
+✔ Relations based on userId  
+✔ Includes seed data  
+
+---
+
+# 🌱 Seed Data (Sample Users & Attendance)
+
+📍 Seed file path:  
 /backend/src/seed/seed.js
-```
 
-Run the seed script:
-```
+▶️ Run seeder:
 node src/seed/seed.js
-```
+✔ Adds:  
+- Manager user  
+- Multiple employees  
+- Sample attendance records
