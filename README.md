@@ -94,7 +94,8 @@ npm start
 ```
 
 ### 🔐 Login Page
-![Login Page](images/Login%20page.png)
+![Login Page](https://raw.githubusercontent.com/AnanyaHegde20/EmployeeAttendanceSystem/main/image/Login%20page.png)
+
 
 
 ### 🧑‍💼 Manager Dashboard
