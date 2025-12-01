@@ -92,6 +92,9 @@ npm start
 ## 🖼 **Screenshots**
 
 ```
+
+<img width="1915" height="905" alt="Manager Dashboard" src="https://github.com/user-attachments/assets/8701f212-bd02-452c-b0d7-aac6a72a8e47" />
+
 ![Screenshot](C:\Users\HP\Pictures\Screenshots\Login page.png)
 ![Screenshot](C:\Users\HP\Pictures\Screenshots\Employee Dashboard.png)
 ![Screenshot](C:\Users\HP\Pictures\Screenshots\Manager Dashboard.png)
