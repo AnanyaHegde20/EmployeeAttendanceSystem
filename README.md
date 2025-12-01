@@ -39,7 +39,7 @@ A modern, stylish, full‑stack attendance management system with
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/AnanyaHegde20/EmployeeAttendanceSystem.git
-cd AttendanceTracker
+cd EmployeeAttendanceSystem
 ```
 
 ### 2️⃣ Install Backend Dependencies
