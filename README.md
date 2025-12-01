@@ -111,8 +111,7 @@ Suggested screenshots:
 - Manager Dashboard  
 - Reports Page  
 
----
-
+```
 ## 🌱 **Seed Data**
 
 📂 Seed file path:
@@ -124,7 +123,7 @@ Suggested screenshots:
 ```
 node src/seed/seed.js
 
-
+```
 <div align="center">
 
 ## 💡 *Fully Functional • Stylish • Developer‑Friendly*
