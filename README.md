@@ -126,6 +126,11 @@ node src/seed/seed.js
 ```
 <div align="center">
 
+✔️ Adds:  
+- Manager user  
+- Multiple employees  
+- Sample attendance records
+
 ## 💡 *Fully Functional • Stylish • Developer‑Friendly*
 
 </div>
