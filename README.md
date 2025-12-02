@@ -132,7 +132,7 @@ node src/seed/seed.js
 - Multiple employees  
 - Sample attendance records
 
-```
+
 
 ## 💡 *Fully Functional • Stylish • Developer‑Friendly*
 
