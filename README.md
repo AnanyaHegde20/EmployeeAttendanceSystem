@@ -127,7 +127,8 @@ node src/seed/seed.js
 <div align="center">
 
 
-✔️ Adds:  
+## ✔️ **Adds**:
+
 - Manager user  
 - Multiple employees  
 - Sample attendance records
